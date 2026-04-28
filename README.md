@@ -1,9 +1,9 @@
-# 🏋️ Sistema de Gerenciamento de Academia
+# Sistema de Gerenciamento de Academia
 
 API REST desenvolvida com Spring Boot para gerenciamento de uma academia, 
 permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 
-## 📋 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot 4.0.4
@@ -13,7 +13,7 @@ permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 - Lombok
 - Maven
 
-## 🗂️ Entidades
+## Entidades
 
 - **Plano** — tipos de plano disponíveis na academia (Mensal, Trimestral, Anual) com preço e duração
 - **Aluno** — cadastro de alunos com dados pessoais como nome, CPF, email e telefone
@@ -21,7 +21,7 @@ permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 - **Treino** — planos de treino vinculados a cada aluno
 - **Exercício** — exercícios dentro de cada treino, com informações de séries, repetições e grupo muscular
 
-## 🔗 Endpoints
+## Endpoints
 
 ### Planos
 | Método | URL | Descrição |
@@ -83,7 +83,7 @@ permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 | PUT | /exercicios/{id} | Atualiza um exercício |
 | DELETE | /exercicios/{id} | Remove um exercício |
 
-## ▶️ Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. Clone o repositório
 2. Abra o projeto na sua IDE
@@ -91,12 +91,12 @@ permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 4. Acesse a API em `http://localhost:8080`
 5. Acesse o banco H2 em `http://localhost:8080/h2-console`
 
-## 🗄️ Configuração do Banco H2
+## Configuração do Banco H2
 
 - **URL:** `jdbc:h2:mem:academia`
-- **Usuário:** `sa`
-- **Senha:** *(vazio)*
+- **Usuário:** 
+- **Senha:** 
 
-## 👥 Equipe
+## Equipe
 
-- Nathan Gonçalves Pereira Mendes
+- Nathan Gonçalves Pereira Mendes -rm564666
