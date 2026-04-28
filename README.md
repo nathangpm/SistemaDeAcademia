@@ -98,14 +98,14 @@ permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 - **Senha:**
 
 ## JSON Para Testar No Postman
-Plano 
+**Plano **
 {
     "nome": "Plano Mensal",
     "preco": 99.90,
     "duracaoDias": 30,
     "descricao": "Plano básico mensal"
 }
-Aluno 
+**Aluno** 
 {
     "nome": "João Carvalho",
     "cpf": "898-767-545-32",
@@ -113,7 +113,7 @@ Aluno
     "telefone": "11989765432",
     "dataNascimento": "2005-05-15"
 }
-Matricula 
+**Matricula** 
 {
     "aluno": { "id": 1 },
     "plano": { "id": 1 },
@@ -121,13 +121,13 @@ Matricula
     "dataVencimento": "2026-05-28",
     "status": "ATIVA"
 }
-Treino
+**Treino**
 {
     "nome": "Treino A - Peito e Tríceps",
     "descricao": "Treino focado em peito e tríceps",
     "aluno": { "id": 1 }
 }
-Exercicios
+**Exercicio**
 {
     "nome": "Supino Reto",
     "grupoMuscular": "Peito",
