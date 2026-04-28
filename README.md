@@ -95,7 +95,47 @@ permitindo o controle de alunos, planos, matrículas, treinos e exercícios.
 
 - **URL:** `jdbc:h2:mem:academia`
 - **Usuário:** 
-- **Senha:** 
+- **Senha:**
+
+## JSON Para Testar No Postman
+Plano 
+{
+    "nome": "Plano Mensal",
+    "preco": 99.90,
+    "duracaoDias": 30,
+    "descricao": "Plano básico mensal"
+}
+Aluno 
+{
+    "nome": "João Carvalho",
+    "cpf": "898-767-545-32",
+    "email": "joaocar@email.com",
+    "telefone": "11989765432",
+    "dataNascimento": "2005-05-15"
+}
+Matricula 
+{
+    "aluno": { "id": 1 },
+    "plano": { "id": 1 },
+    "dataInicio": "2026-04-28",
+    "dataVencimento": "2026-05-28",
+    "status": "ATIVA"
+}
+Treino
+{
+    "nome": "Treino A - Peito e Tríceps",
+    "descricao": "Treino focado em peito e tríceps",
+    "aluno": { "id": 1 }
+}
+Exercicios
+{
+    "nome": "Supino Reto",
+    "grupoMuscular": "Peito",
+    "series": 4,
+    "repeticoes": 12,
+    "observacao": "Descanso de 60 segundos",
+    "treino": { "id": 1 }
+}
 
 ## Equipe
 
